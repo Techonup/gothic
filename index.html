@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+  <!-- Returns 304 instead of 200 for a marginally faster load. -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+  <script src="script.js"></script>
+  <title>Nature in the Suburban Gothic</title>
+</head>
+
+<body>
+  <div class="container">
+
+    <div class="initial">
+      <p>Yada yada yada.</p>
+      <button class="button" onclick="start()" id="start">Start</button>
+    </div>
+
+    <div class="imgbox" id="imgbox" style="display: none">
+
+    </div>
+
+    <div class="textbox" style="display: none">
+      <div id="pgname">a</div>
+      <div id="pname">b</div>
+      <div id="year">c</div>
+      &nbsp;
+      <div id="desc">Yada yada yada.</div>
+
+      <div class="buttons">
+        <button class="button" onclick="prev()" id="prev">Previous</button>
+        <button class="button" onclick="next()" id="next">Next</button>
+      </div>
+    </div>
+
+  </div>
+
+</body>
+</html>

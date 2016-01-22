@@ -33,11 +33,12 @@ function next() {
   $(".imgbox").hide();
   $(".textbox").hide();
 
-  $("#imgbox").html("<img src='full/" + pic + ".jpg'>");
+  $("#imgbox").html("<img class='img' src='full/" + pic + ".jpg'>");
 
   $("#pgname").text(json[pic].pgname);
   $("#pname").text(json[pic].pname);
   $("#year").text(json[pic].year);
+  $("#desc").text(json[pic].desc);
 
   $(".imgbox").fadeIn();
   $(".textbox").fadeIn();
@@ -55,11 +56,12 @@ function prev() {
     $(".imgbox").hide();
     $(".textbox").hide();
 
-    $("#imgbox").html("<img src='full/" + pic + ".jpg'>");
+    $("#imgbox").html("<img class='img' src='full/" + pic + ".jpg'>");
 
     $("#pgname").text(json[pic].pgname);
     $("#pname").text(json[pic].pname);
     $("#year").text(json[pic].year);
+    $("#desc").text(json[pic].desc);
 
     $(".imgbox").fadeIn();
     $(".textbox").fadeIn();

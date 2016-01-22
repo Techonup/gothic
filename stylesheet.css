@@ -1,6 +1,8 @@
 body {
     background-color: #202020;
     font-family: 'Open Sans', sans-serif;
+    line-height: 150%;
+    word-wrap: break-word;
 }
 
 .container {
@@ -38,18 +40,44 @@ body {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  box-shadow: 0px 0px 10px #444444;
 }
 
 .initial {
   text-align: center;
-  width: 30%;
+  width: 40%;
   position: absolute;
   top: 50%;
-  margin-left: 35%;
+  margin-left: 30%;
   color: white;
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
+}
+
+.botbar {
+  font-size: 9px;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  margin-top: 25%;
+  color: white;
+}
+
+.botbar a:link {
+  color: #cccccc;
+}
+
+.botbar a:visited {
+  color: #888888;
+}
+
+.botbar a:hover {
+  color: #eeeeee;
+}
+
+.botbar a:active {
+  color: #ffffff;
 }
 
 .button {
